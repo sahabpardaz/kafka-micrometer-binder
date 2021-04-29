@@ -1,4 +1,6 @@
 # Kafka Micrometer Binder
+[![Tests](https://github.com/sahabpardaz/kafka-micrometer-binder/actions/workflows/maven.yml/badge.svg)](https://github.com/sahabpardaz/kafka-micrometer-binder/actions/workflows/maven.yml)
+
 An implementation of Kafka `MetricsReporter` which binds Kafka client metrics to Micrometer.
 
 Kafka has a built-in mechanism which allows us to gather its metrics and report them to different sources.

@@ -69,8 +69,6 @@ public class MicrometerKafkaMetricsReporterTest {
         consumer.subscribe(Collections.singleton(TOPIC_NAME));
         consumer.listTopics();
 
-        Metrics.globalRegistry.getMeters().forEach(meter -> System.out.println(meter.getId() + ": "+ meter.measure()));
-
         int connection_count = (int) Metrics.globalRegistry
                 .get("kafka.consumer.connection.count").tag("client-id", "consumer").gauge().value();
         assertEquals(1, connection_count);
