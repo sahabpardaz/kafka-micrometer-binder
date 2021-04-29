@@ -2,6 +2,7 @@
 [![Tests](https://github.com/sahabpardaz/kafka-micrometer-binder/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/sahabpardaz/kafka-micrometer-binder/actions/workflows/maven.yml)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=sahabpardaz_kafka-micrometer-binder&metric=coverage)](https://sonarcloud.io/dashboard?id=sahabpardaz_kafka-micrometer-binder)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=sahabpardaz_kafka-micrometer-binder&metric=alert_status)](https://sonarcloud.io/dashboard?id=sahabpardaz_kafka-micrometer-binder)
+[![JitPack](https://jitpack.io/v/sahabpardaz/kafka-micrometer-binder.svg)](https://jitpack.io/#sahabpardaz/kafka-micrometer-binder)
 
 An implementation of Kafka `MetricsReporter` which binds Kafka client metrics to Micrometer.
 
