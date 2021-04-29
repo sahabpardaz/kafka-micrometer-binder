@@ -14,4 +14,6 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      run: mvn test --file pom.xml
+      run: mvn test
+    - name: Scan with SonarCloud
+      run: mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar

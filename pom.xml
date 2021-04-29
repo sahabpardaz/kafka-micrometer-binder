@@ -18,6 +18,10 @@
     <properties>
         <kafka.version>2.7.0</kafka.version>
 
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.organization>sahabpardaz</sonar.organization>
+        <sonar.projectKey>sahabpardaz_kafka-micrometer-binder</sonar.projectKey>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
@@ -61,6 +65,11 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.8.0.2131</version>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
